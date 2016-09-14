@@ -3,7 +3,12 @@
   "main": "./lib/exec-cmd",
   "version": "0.2.0",
   "description": "Ejecuta comandos desde un texto seleccionado",
-  "keywords": [],
+  "keywords": [
+    "exec",
+    "cmd",
+    "pizza",
+    "exec command"
+  ],
   "activationCommands": {
     "atom-workspace": "exec-cmd:exec-selected"
   },
