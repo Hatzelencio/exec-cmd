@@ -8,7 +8,7 @@
   "activationCommands": {
     "atom-workspace": "exec-cmd:exec-selected"
   },
-  "repository": "https://github.com/atom/exec-cmd",
+  "repository": "https://github.com/Hatzelencio/exec-cmd",
   "license": "MIT",
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
