@@ -1,10 +1,9 @@
 {
   "name": "exec-cmd",
   "main": "./lib/exec-cmd",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "Ejecuta comandos desde un texto seleccionado",
-  "keywords": [
-  ],
+  "keywords": [],
   "activationCommands": {
     "atom-workspace": "exec-cmd:exec-selected"
   },
@@ -13,6 +12,5 @@
   "engines": {
     "atom": ">=1.0.0 <2.0.0"
   },
-  "dependencies": {
-  }
+  "dependencies": {}
 }
