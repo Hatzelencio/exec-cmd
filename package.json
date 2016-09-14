@@ -1,12 +1,12 @@
 {
   "name": "exec-cmd",
   "main": "./lib/exec-cmd",
-  "version": "0.0.0",
-  "description": "A short description of your package",
+  "version": "1.0.0",
+  "description": "Ejecuta comandos desde un texto seleccionado",
   "keywords": [
   ],
   "activationCommands": {
-    "atom-workspace": "exec-cmd:toggle"
+    "atom-workspace": "exec-cmd:exec-selected"
   },
   "repository": "https://github.com/atom/exec-cmd",
   "license": "MIT",

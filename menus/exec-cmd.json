@@ -3,7 +3,7 @@
     "atom-text-editor": [
       {
         "label": "Toggle exec-cmd",
-        "command": "exec-cmd:toggle"
+        "command": "exec-cmd:exec-selected"
       }
     ]
   },
@@ -16,7 +16,7 @@
           "submenu": [
             {
               "label": "Toggle",
-              "command": "exec-cmd:toggle"
+              "command": "exec-cmd:exec-selected"
             }
           ]
         }

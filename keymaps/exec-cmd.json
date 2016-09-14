@@ -1,5 +1,5 @@
 {
   "atom-workspace": {
-    "ctrl-alt-o": "exec-cmd:toggle"
+    "alt-r": "exec-cmd:exec-selected"
   }
 }
