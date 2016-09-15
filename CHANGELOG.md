@@ -6,3 +6,7 @@
 
 - Se corrigió la ruta donde se ejecutan los comandos. Ahora los comandos se ejecutan a partir del archivo fuente.
 - Se agregaron nuevos tags
+
+# 0.2.2 - When a command is executed within a new file, fails
+
+- Se corrigió problema, cuando se ejecuta un comando dentro de un nuevo archivo; este fallaba dado que no encuentra una ruta po defecto. Se agregó un try-catch para solucionar el problema y devolver $HOME
