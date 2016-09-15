@@ -1,7 +1,7 @@
 {
   "name": "exec-cmd",
   "main": "./lib/exec-cmd",
-  "version": "0.2.2",
+  "version": "0.2.3",
   "description": "Ejecuta comandos desde un texto seleccionado",
   "keywords": [
     "exec",
