@@ -1,5 +1,5 @@
 {
-  "atom-workspace": {
+  "atom-pane-container": {
     "alt-r": "exec-cmd:exec-selected"
   }
 }
