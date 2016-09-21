@@ -1,26 +1,4 @@
 {
-  "context-menu": {
-    "atom-text-editor": [
-      {
-        "label": "Toggle exec-cmd",
-        "command": "exec-cmd:exec-selected"
-      }
-    ]
-  },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "exec-cmd",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "exec-cmd:exec-selected"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "context-menu": {},
+  "menu": []
 }
