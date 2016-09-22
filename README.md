@@ -1,5 +1,21 @@
 # exec-cmd package
 
-Ejecuta comandos desde un texto seleccionado con el atajo: `alt+r`
+## Bash portable
 
-Los cambios se visualizan en consola de atom: `ctrl-shift-i`
+Ejecuta comandos desde un texto seleccionado.
+
+> Instalación
+
+```bash
+apm install exec-cmd
+```
+
+--------------------------------------------------------------------------------
+
+> ¿Cómo usarlo?
+
+1. Selecciona el texto deseado a ejecutar
+2. Utiliza el atajo `alt` + `r`
+3. ¡Disfruta! :v
+
+--------------------------------------------------------------------------------

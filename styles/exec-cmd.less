@@ -6,28 +6,44 @@
 
 .exec-cmd {
 }
-.exec-cmd-main-element:after {
-  display: table;
-  content: '';
-  clear: both;
-  height: 100px;
+.exec-cmd-table {
+  width:100%;
+  height: 150px;
 }
-.exec-cmd-container {
-  float: left;
-  width: 50%;
-  height: 20%;
+.exec-cmd-table-tr {
+}
+.exec-cmd-table-th {
+  // cursor: col-resize;
+}
+.exec-cmd-table-border {
   border: 1px dotted grey;
+  border-collapse: collapse;
 }
-.exec-cmd-box {
-  margin: 0 auto;;
-  padding: 0;
-  box-sizing: border-box;
-}
-.exec-cmd-textarea {
+.exec-cmd-table-item {
   width: 100%;
   height: 100%;
-  background-color: #2b2a2a;
+}
+.exec-cmd-textarea {
+  resize: none;
   font-style: normal;
   font-family: monospace;
-  // resize: none;
+  background-color: #222222;
 }
+
+// th.resizing {
+//     cursor: col-resize;
+// }
+//
+// .noCrsr {
+//     margin-right: +5px;
+//     cursor: default;
+// }
+//
+// .noSelect {
+//     -webkit-touch-callout: none;
+//     -webkit-user-select: none;
+//     -khtml-user-select: none;
+//     -moz-user-select: none;
+//     -ms-user-select: none;
+//     user-select: none;
+// }

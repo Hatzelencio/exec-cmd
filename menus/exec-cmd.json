@@ -1,4 +1,11 @@
 {
-  "context-menu": {},
+  "context-menu": {
+    "textarea": [
+      {
+        "label": "Copiar",
+        "command": "exec-cmd:exec-copy-selected-text"
+      }
+    ]
+  },
   "menu": []
 }

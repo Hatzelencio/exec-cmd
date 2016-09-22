@@ -14,3 +14,11 @@
 # 0.2.4 - Add settings params
 
 - Se agregaron parametros por defectos al `settings` del packete.
+
+# 0.3.0 - Se agregó panel inferior para mostrar los resultados
+
+- Se agregó panel para mostrar el resultado del comando ejecutado. `alt + r`
+- El panel se cierra si es presionado `Esc` dentro del _atom-workspace_
+- Se eliminaron menús que no eran útiles.
+- Se agregó boolean para la configuración del paquete; permite guardar el resultado del comando ejecutado en el _clipboard_
+- Se corrigió el README.md
