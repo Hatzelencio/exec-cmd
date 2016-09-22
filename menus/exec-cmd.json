@@ -1,26 +1,11 @@
 {
   "context-menu": {
-    "atom-text-editor": [
+    "textarea": [
       {
-        "label": "Toggle exec-cmd",
-        "command": "exec-cmd:exec-selected"
+        "label": "Copiar",
+        "command": "exec-cmd:exec-copy-selected-text"
       }
     ]
   },
-  "menu": [
-    {
-      "label": "Packages",
-      "submenu": [
-        {
-          "label": "exec-cmd",
-          "submenu": [
-            {
-              "label": "Toggle",
-              "command": "exec-cmd:exec-selected"
-            }
-          ]
-        }
-      ]
-    }
-  ]
+  "menu": []
 }

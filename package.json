@@ -10,7 +10,11 @@
     "exec command"
   ],
   "activationCommands": {
-    "atom-workspace": "exec-cmd:exec-selected"
+    "textarea": "exec-cmd:exec-copy-selected-text",
+    "atom-pane-container": [
+      "exec-cmd:exec-closeview",
+      "exec-cmd:exec-selected"
+    ]
   },
   "repository": "https://github.com/Hatzelencio/exec-cmd",
   "license": "MIT",

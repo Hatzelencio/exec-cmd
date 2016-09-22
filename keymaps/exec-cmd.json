@@ -1,5 +1,6 @@
 {
-  "atom-workspace": {
+  "atom-pane-container": {
+    "escape": "exec-cmd:exec-closeview",
     "alt-r": "exec-cmd:exec-selected"
   }
 }
